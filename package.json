@@ -1,0 +1,17 @@
+{
+  "name": "webrtc-signaling-server",
+  "version": "1.0.0",
+  "description": "Server di signaling WebRTC per videochiamata PWA-PC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "keywords": ["webrtc", "signaling", "websocket"],
+  "license": "MIT"
+}
